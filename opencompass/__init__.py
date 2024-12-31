@@ -16,4 +16,4 @@ def _warn_about_config_migration():
 
 
 # Trigger the warning
-_warn_about_config_migration()
+# _warn_about_config_migration()
