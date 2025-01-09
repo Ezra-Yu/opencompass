@@ -28,7 +28,6 @@ tqdm.__init__ = custom_tqdm_init
 
 VERBOSE = os.environ.get('VERBOSE', 0)
 
-@MODELS.register_module('maas')
 class MAASAPI(BaseAPIModel):
     def __init__(self,
                  base_url: str,
